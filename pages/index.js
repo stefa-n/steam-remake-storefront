@@ -2,9 +2,10 @@ import Head from 'next/head'
 import Image from 'next/image'
 
 import BigShowcase from "../components/BigShowcase";
-import BrowseIncentive from "../components/BrowseIncentive";
 import Navbar from "../components/Navbar";
 import Navbar_store from "../components/Navbar_store"
+import SpecialOffers from "../components/SpecialOffers";
+import BrowseIncentive from "../components/BrowseIncentive";
 
 import Medusa from "@medusajs/medusa-js"
 const medusa = new Medusa({
@@ -22,6 +23,7 @@ export default function Home() {
             <Navbar/>
             <Navbar_store/>
             <BigShowcase/>
+            <SpecialOffers/>
             <BrowseIncentive/>
         </div>
     )
