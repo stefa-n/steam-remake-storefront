@@ -1,12 +1,12 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import {useEffect, useState} from "react";
 
-import BigShowcase from "../components/Landing/BigShowcase";
 import Navbar from "../components/Navbar";
 import Navbar_store from "../components/Navbar_store"
-import Spotlight from "../components/Landing/Spotlight";
+import BigShowcase from "../components/Landing/BigShowcase";
 import BrowseIncentive from "../components/Landing/BrowseIncentive";
+import Spotlight from "../components/Landing/Spotlight";
+import ProductList from "../components/Landing/ProductList";
 
 export default function Home() {
     const [getCart, setCart] = useState(null)
@@ -43,6 +43,9 @@ export default function Home() {
             <BigShowcase/>
             <BrowseIncentive/>
             <Spotlight/>
+            <div style={{background: 'linear-gradient( to bottom, rgba(42,71,94,1.0) 5%, rgba(42,71,94,0.0) 70%)', borderTopLeftRadius: '6px', borderTopRightRadius: '6px'}}>
+                <ProductList/>
+            </div>
             <div style={{marginBottom: '1%'}}/>
         </div>
     )
