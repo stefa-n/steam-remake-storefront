@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-export default function Navbar_store() {
+export default function Navbar_store({items}) {
     return (
         <div>
             <div style={{
@@ -24,6 +24,13 @@ export default function Navbar_store() {
                     <Link href="/" style={{marginLeft: '2%'}}>Points Shop</Link>
                     <Link href="/" style={{marginLeft: '2%'}}>News</Link>
                     <Link href="/" style={{marginLeft: '2%'}}>Labs</Link>
+                    <Link href="/cart" style={{
+                        marginLeft: '2%',
+                        backgroundColor: '#718E02',
+                        width: '100px',
+                        height: '20px',
+                        textAlign: 'center'
+                    }}>CART ({items})</Link>
                 </div>
             </div>
         </div>
