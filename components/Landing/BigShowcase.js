@@ -29,15 +29,15 @@ export default function BigShowcase() {
                         <div
                             style={{width: '312px', height: '353px', backgroundImage: 'url(/previewSs/previewBg.jpg)'}}>
                             <div style={{margin: '0 0 0 2%'}}>
-                                <p style={{fontSize: '24px', marginTop: '5%'}}>Aventura Copilului Albastru și Urât</p>
+                                <p style={{fontSize: '24px', marginTop: '5%'}}>medusa-stonkers</p>
                                 <div style={{display: 'flex', flexWrap: 'wrap', gap: '3px'}}>
-                                    <Image alt='Preview Image' src="/PreviewSs/1.jpg" width={150} height={84}/>
-                                    <Image alt='Preview Image' src="/PreviewSs/2.jpg" width={150} height={84}/>
-                                    <Image alt='Preview Image' src="/PreviewSs/3.jpg" width={150} height={84}/>
-                                    <Image alt='Preview Image' src="/PreviewSs/4.jpg" width={150} height={84}/>
-                                    <p style={{marginTop: '0', fontSize: '18px'}}>Now available</p>
+                                    <Image alt='Preview Image' src="/PreviewSs/1.png" width={150} height={84}/>
+                                    <Image alt='Preview Image' src="/PreviewSs/2.png" width={150} height={84}/>
+                                    <Image alt='Preview Image' src="/PreviewSs/3.png" width={150} height={84}/>
+                                    <Image alt='Preview Image' src="/PreviewSs/4.png" width={150} height={84}/>
+                                    <p style={{marginTop: '10%', fontSize: '18px'}}>Now available</p>
                                 </div>
-                                <p style={{marginTop: '10px', fontSize: '11px'}}>$1.49</p>
+                                <p style={{marginTop: '10px', fontSize: '11px'}}>$0.00</p>
                             </div>
                         </div>
                     </div>
