@@ -24,7 +24,7 @@ export default function BigShowcase() {
                         boxShadow: '0 0 7px 0px #000'
                     }}>
                         <Image style={{float: 'left', boxShadow: '0px 0px 30px 1px #171A21', zIndex: '1'}}
-                               src="/aventura.jpg"
+                               src="/previewSs/previewBanner.jpg"
                                alt="Big Showcase Image" width={628} height={353}/>
                         <div
                             style={{width: '312px', height: '353px', backgroundImage: 'url(/previewSs/previewBg.jpg)'}}>

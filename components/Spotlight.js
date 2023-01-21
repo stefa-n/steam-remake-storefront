@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-export default function SpecialOffers() {
+export default function Spotlight() {
     return (
             <div style={{display: 'flex', justifyContent: 'center', marginTop: '10px'}}>
                 <div style={{width: '940px', height: '382px'}}>
