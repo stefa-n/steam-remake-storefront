@@ -40,18 +40,28 @@ export default function ProductList() {
                             }}>
                                 <Image src={product.thumbnail} width={1080} height={1080}
                                        style={{width: 'auto', height: '69px', paddingRight: '12px'}}/>
-                                <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between', position: 'relative', width: '860px'}}>
-                                    <p style={{
-                                        color: '#C7D5E0',
-                                        marginTop: '10px',
-                                        fontSize: '1.25em',
-                                        zIndex: '1',
-                                        textOverflow: 'ellipsis',
-                                        whiteSpace: 'nowrap',
-                                        display: 'block',
-                                        overflow: 'hidden',
-                                        transition: 'color 0.25s',
-                                    }}>{product.title}</p>
+                                <div style={{
+                                    display: 'flex',
+                                    flexDirection: 'row',
+                                    justifyContent: 'space-between',
+                                    position: 'relative',
+                                    width: '860px'
+                                }}>
+                                    <div>
+                                        <p style={{
+                                            color: '#C7D5E0',
+                                            marginTop: '10px',
+                                            marginBottom: '0px',
+                                            fontSize: '1.25em',
+                                            zIndex: '1',
+                                            textOverflow: 'ellipsis',
+                                            whiteSpace: 'nowrap',
+                                            display: 'block',
+                                            overflow: 'hidden',
+                                            transition: 'color 0.25s',
+                                        }}>{product.title}</p>
+                                        <p style={{marginTop: '0px', fontSize: '12px', color: 'gray'}}>{product.description}</p>
+                                    </div>
                                     <div style={{position: 'absolute', right: '0'}}>
                                         <p style={{color: '#BEEE11'}}>{product.variants[0].prices[0].amount / 100}{product.variants[0].prices[0].currency_code.toUpperCase()}</p>
                                     </div>
