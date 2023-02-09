@@ -1,3 +1,5 @@
+import Router from "next/router"
+
 export default function AddToCart({cart, id, name, price, currency}) {
     return (
         <div style={{display: 'flex', justifyContent: 'center', marginTop: '2%'}}>
@@ -53,7 +55,7 @@ export default function AddToCart({cart, id, name, price, currency}) {
                                         quantity: 1,
                                     }),
                                 })
-                                    .then((response) => console.log(response.json()))
+                                    .then((response) => Router.push("/"))
                             }} style={{
                                 width: '110px',
                                 height: '30px',
